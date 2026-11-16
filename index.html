@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Salsabila Azky | Informatics Engineering Graduate</title>
+  <meta name="description"
+    content="Portfolio of Salsabila Azky, an Informatics Engineering graduate from University of Lampung interested in UI/UX design, software development, AI and machine learning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    /* Set the theme before the page paints, to avoid a flash */
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) { }
+      if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = t;
+    })();
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="wrap" aria-label="Main">
+      <a class="logo" href="#home">Salsabila Azky Quri'al Qur'ani</a>
+      <div class="links" id="navlinks"></div>
+      <button class="icon theme" id="theme" type="button"></button>
+      <a class="btn sm" data-cv href="#">Download CV</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="wrap">
+        <div>
+          <h1 id="h-name"></h1>
+          <p class="role" id="h-role"></p>
+          <p class="intro" id="h-intro"></p>
+          <div class="row">
+            <a class="btn" href="#projects">View my projects</a>
+            <a class="btn ghost" data-cv href="#">Download CV</a>
+            <a class="icon" id="h-li" aria-label="LinkedIn" target="_blank" rel="noopener"></a>
+          </div>
+        </div>
+        <div class="photo" id="photo"></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <h2>About</h2>
+        <div class="about" id="about-text"></div>
+      </div>
+    </section>
+    <section id="experience">
+      <div class="wrap">
+        <h2>Experience</h2>
+        <div id="exp"></div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2>Projects</h2>
+          <a class="more" href="#other-projects">Other projects &rarr;</a>
+        </div>
+        <div class="cards" id="proj"></div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <div class="skillgrid" id="skills-grid"></div>
+        <h2>Education</h2>
+        <div class="edu" id="edu"></div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="wrap contact">
+        <h2>Contact</h2>
+        <p class="muted" id="c-text"></p>
+        <div class="row">
+          <a class="btn" id="c-mail"></a>
+          <a class="icon" id="c-li" aria-label="LinkedIn" target="_blank" rel="noopener"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project page (shown when the address ends with #project-<id>) -->
+  <div id="detail" hidden>
+    <article class="dpage">
+      <a class="back" href="#projects">&larr; Back to projects</a>
+      <h1 id="dtitle"></h1>
+      <div id="dsub"></div>
+      <div class="dbody" id="dbody"></div>
+      <nav class="pn" id="dnav" aria-label="More projects"></nav>
+    </article>
+  </div>
+
+  <!-- Other projects page (shown when the address ends with #other-projects) -->
+  <div id="others" hidden>
+    <article class="dpage opage">
+      <a class="back" href="#projects">&larr; Back to projects</a>
+      <h1>Other projects</h1>
+      <p class="muted" id="o-intro"></p>
+      <div class="olist" id="o-list"></div>
+    </article>
+  </div>
+
+  <footer>
+    <div class="wrap" id="foot"></div>
+  </footer>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
