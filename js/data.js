@@ -36,7 +36,7 @@ const SITE = {
             "Organized asset data and, together with other interns, worked on the design of the annual magazine.",
             "Supported administrative tasks and reported results to my mentor."
           ],
-          photos: ["images/experience/pic3.png", "images/experience/Picture2.jpg", "images/experience/pic4.png"]
+          photos: ["images/experience/pic4.png", "images/experience/Picture2.jpg", "images/experience/pic3.png"]
         },
         {
           title: "Computer Laboratory Teaching Assistant", org: "University of Lampung", date: "2024 - 2026",
