@@ -1,12 +1,8 @@
-/* =====================================================
-   YOUR CONTENT. Edit only the text inside the quotes.
-   Keep the commas, brackets and quote marks.
-   ===================================================== */
 const SITE = {
   name: "Salsabila Azky Quri'al Qur'ani",
-  cv: "./cv/CV_Salsabila_Azky.pdf",        // e.g. "cv/Salsabila-Azky-CV.pdf"
-  photoLight: "images/other/porto.png",   // shown in light mode
-  photoDark: "images/other/porto2.png",     // shown in dark mode   // e.g. "photo.jpg"
+  cv: "./cv/CV_Salsabila_Azky.pdf",        
+  photoLight: "images/other/porto.png",   
+  photoDark: "images/other/porto2.png",     
   email: "salsabilaazky2422@gmail.com",
   linkedin: "https://linkedin.com/in/salsabila-azky-quri-al-qur-ani-ba73b930a",
 
@@ -19,10 +15,6 @@ const SITE = {
     "I am particularly interested in creating digital products that are functional, accessible, and aligned with users needs. I am eager to continue developing my skills and contribute to collaborative product development environments."
   ],
 
-  /* Experience is split into groups ("Professional" and "Organization").
-     Each entry can have photos: put image files in images/experience/ and list their paths.
-     Change, add or remove paths any time. A missing file shows a placeholder tile.
-     To move an entry to another group, cut and paste it inside that group's items. */
   experience: [
     {
       group: "Professional",
@@ -65,14 +57,6 @@ const SITE = {
     }
   ],
 
-  /* Each project is a card in "Selected work" and has its own page at index.html#project-<id>.
-     category:   short label under the title on the card
-     mockup:     "laptop", "phone" or "both" (the device frame drawn on the card)
-     thumb:      screenshot shown inside the laptop, e.g. "images/liwa-web.png"
-     thumbPhone: screenshot shown inside the phone, e.g. "images/liwa-phone.png"
-     shots:      screenshots on the project page. Text entries show as placeholders.
-     extra:      add as many extra text sections as you like.
-     To add a project, copy one entry, change the id and fill it in. */
   projects: [
     {
       id: "liwa", title: "LIWA 1.0", category: "Web Platform",
@@ -114,21 +98,16 @@ const SITE = {
       problem: "Managing personal finances means entering many details by hand, which is slow and easy to skip. [Confirm: the exact problem the team set out to solve.] Dwitin aims to make this easier, and OCR was used to read information directly from images.",
       role: "Machine learning team member. I built the OCR model using a CNN combined with a Bidirectional LSTM, and prepared it for mobile use with TensorFlow Lite. [Add: how you worked with the mobile and cloud teammates, and how many people were on the team.]",
       process: [
-        "Agreed with the team on what the OCR feature needed to read [Confirm]",
-        "Prepared the image and text data for training [Add: dataset source and size]",
+        "Agreed with the team on what the OCR feature needed to read",
+        "Prepared the image and text data for training",
         "Trained a text recognition model using a CNN with a Bidirectional LSTM",
-        "Evaluated the model [Add: metric and result]",
         "Converted the model to TensorFlow Lite so it can run inside the app",
-        "Handed the model to the app team for integration [Confirm]"
       ],
       outcome: "The OCR model was delivered as part of the team’s capstone project. [Add: accuracy or other result, and what the final app can do.]",
       shots: ["images/project/dwitin1.png", "images/project/dwitin2.png", "images/project/dwitin3.png"]
     }
   ],
 
-  /* "Other projects" page (link in the top-right corner of Selected work).
-     photo: e.g. "images/other/project-1.jpg"   link: optional, e.g. a GitHub or demo URL
-     To add a project, copy one item. To remove one, delete it. */
   otherProjects: {
     intro: "Other academic and personal projects",
     items: [
