@@ -94,7 +94,7 @@ const SITE = {
       id: "dwitin", title: "Dwitin", category: "Finance App · Machine Learning",
       mockup: "phone", thumb: "", thumbPhone: "images/project/dwitin.png",
       tech: ["TensorFlow", "TensorFlow Lite", "CNN", "Bidirectional LSTM", "OCR"],
-      overview: "Dwitin is a finance application developed by a team as a capstone project (C2P2-PS546). I worked on the machine learning part: an OCR model that lets the app read text from images, so users enter less data by hand.",
+      overview: "Dwitin is a finance application developed by a team as a capstone project (C2P2-PS546). I worked on the machine learning part, an OCR model that lets the app read text from images, so users enter less data by hand.",
       problem: "Managing personal finances means entering many details by hand, which is slow and easy to skip. Dwitin aims to make this easier, and OCR was used to read information directly from images.",
       role: "Machine learning team member. I built the OCR model using a CNN combined with a Bidirectional LSTM, and prepared it for mobile use with TensorFlow Lite.",
       process: [
