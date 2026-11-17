@@ -1,23 +1,13 @@
-/* ===== Colors (maroon + black): change these to restyle the whole site ===== */
 :root {
   --bg: #FAF6F2;
-  /* page background */
   --surface: #FFFFFF;
-  /* cards */
   --text: #1A1416;
-  /* main text (black) */
   --muted: #6F6266;
-  /* secondary text */
   --accent: #7A1E2E;
-  /* maroon: labels, links, highlights */
   --btn: #7A1E2E;
-  /* maroon: button fill */
   --on: #FFFFFF;
-  /* text on buttons */
   --tint: #F1E4E4;
-  /* soft blush: tags, mockup cards */
   --line: #E8DDDA;
-  /* borders */
   color-scheme: light;
 }
 
