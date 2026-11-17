@@ -103,7 +103,7 @@ const SITE = {
         "Trained a text recognition model using a CNN with a Bidirectional LSTM",
         "Converted the model to TensorFlow Lite so it can run inside the app",
       ],
-      outcome: "The OCR model was delivered as part of the team’s capstone project. [Add: accuracy or other result, and what the final app can do.]",
+      outcome: "The OCR model was delivered as part of the team’s capstone project.",
       shots: ["images/project/dwitin1.png", "images/project/dwitin2.png", "images/project/dwitin3.png"]
     }
   ],
